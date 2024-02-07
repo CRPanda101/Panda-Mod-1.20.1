@@ -15,6 +15,7 @@ public static final ItemGroup PB_GROUP = Registry.register(Registries.ITEM_GROUP
                 .icon(() -> new ItemStack(ModItems.PEANUT)).entries((displayContext, entries) -> {
                     entries.add(ModItems.PEANUT);
                     entries.add(ModItems.ROASTED_PEANUT);
+                    entries.add(ModItems.CHUNKY_PB_JAR);
                     entries.add(ModItems.PB_JAR);
 
 

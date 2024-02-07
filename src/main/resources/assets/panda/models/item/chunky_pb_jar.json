@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "panda:item/chunky_pb_jar"
+  }
+
+}
