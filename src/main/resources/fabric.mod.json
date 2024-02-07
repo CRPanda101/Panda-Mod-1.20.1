@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "panda",
+	"version": "${version}",
+	"name": "Panda",
+	"description": "peanut butter",
+	"authors": [
+		"CRPanda and joel (screw you joel)"
+	],
+	"contact": {
+		"homepage": "crpanda on discord"
+	},
+	"license": "MIT",
+	"icon": "assets/panda/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.crpanda.panda.Panda"
+		],
+		"Client": [
+			"net.crpanda.panda.PandaClient"
+		],
+		"fabric-datagen": [
+			"net.crpanda.panda.PandaDataGenerator"
+		]
+	},
+	"mixins": [
+		"panda.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
