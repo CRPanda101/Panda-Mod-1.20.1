@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item PB_JAR = registerItem("pb_jar", new Item(new FabricItemSettings()));
     public static final Item CHUNKY_PB_JAR = registerItem("chunky_pb_jar", new Item(new FabricItemSettings()));
     public static final Item PEANUT = registerItem("peanut", new Item(new FabricItemSettings().food(ModFoodComponents.PEANUT)));
-    public static final Item ROASTED_PEANUT = registerItem("roasted_peanut", new Item(new FabricItemSettings()));
+    public static final Item ROASTED_PEANUT = registerItem("roasted_peanut", new Item(new FabricItemSettings().food(ModFoodComponents.ROASTED_PEANUT)));
 
 
 
